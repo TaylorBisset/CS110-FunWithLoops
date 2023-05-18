@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <cmath>
 
 using namespace std;
 
@@ -16,7 +17,7 @@ int main()
 
 	cout << endl << "------------------------------" << endl;
 
-	// Problem 2: Parrot: Echo the user's input until the user enters nothing.
+	// Problem 2: Parrot: Echo the user's input until the user enters nothing. Included <string> for getline().
 
 	cout << "Problem 2: Parrot: Echo the user's input until the user enters nothing.\n\n";
 
@@ -52,4 +53,17 @@ int main()
 	cout << "No more bottles of beer on the wall!\n";
 
 	cout << endl << "------------------------------" << endl;
+
+	// Problem 4: Print all the powers of 2 that are less than 5000.
+
+	cout << "Problem 4: Print all the powers of 2 that are less than 5000.\n\n";
+
+	int numPow = 1;
+	int numOut = 2;
+	while (numOut < 5000)
+	{
+		cout << numOut << endl;
+		numOut = pow(2, numPow++);
+	}
+
 }
