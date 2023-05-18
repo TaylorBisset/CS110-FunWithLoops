@@ -14,7 +14,7 @@ int main()
 		cout << y << " ";
 	}
 
-	cout << endl << endl;
+	cout << endl << "------------------------------" << endl;
 
 	// Problem 2: Parrot: Echo the user's input until the user enters nothing.
 
@@ -29,5 +29,27 @@ int main()
 		cout << "Parrot  : " << parrot << endl;
 	}
 	
-	cout << endl << endl;
+	cout << endl << "------------------------------" << endl;
+
+	// Problem 3: Print all the words to the song "99 Bottles of Beer".
+
+	cout << "Problem 2: Print all the words to the song '99 Bottles of Beer.'\n\n";
+
+	int beerBottles = 99;
+
+	while (beerBottles > 1)
+	{
+		cout << beerBottles << " bottles of beer on the wall,\n" << beerBottles << " bottles of beer!\n";
+		cout << "Take one down, pass it around,\n";
+		--beerBottles;
+	}
+	while (beerBottles == 1)
+	{
+		cout << beerBottles << " bottle of beer on the wall,\n" << beerBottles << " bottle of beer!\n";
+		cout << "Take one down, pass it around,\n";
+		--beerBottles;
+	}
+	cout << "No more bottles of beer on the wall!\n";
+
+	cout << endl << "------------------------------" << endl;
 }
