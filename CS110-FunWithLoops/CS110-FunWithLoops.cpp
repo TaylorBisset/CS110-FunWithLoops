@@ -110,4 +110,13 @@ int main()
 	cout << ".\n";
 
 	cout << endl << "------------------------------" << endl << endl;
+
+	/*	Problem 7: Ask the user to enter an integer between 1 and 10.
+
+		If the user enters a number out of range, keep asking until the user enters valid input,
+		no matter how many times they get it wrong or what sorts of mistakes they make.
+
+		Then print the entered number. (Challenge: You print the prompt that asks the
+		user to enter a number in only one place in your code.)
+	*/
 }
