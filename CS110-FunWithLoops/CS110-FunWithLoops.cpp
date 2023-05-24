@@ -201,33 +201,20 @@ int main()
 
 	cout << "Problem 10: Print the full lyrics of the song '12 Days of Christmas.'\n\n";
 
-	string verse12 = "Twelve drummers drumming\n";
-	string verse11 = "Eleven pipers piping\n";
-	string verse10 = "Ten lords a-leaping\n";
-	string verse9  = "Nine ladies dancing\n";
-	string verse8  = "Eight maids a-milking\n";
-	string verse7  = "Seven swans a-swimming\n";
-	string verse6  = "Six geese a-laying\n";
-	string verse5  = "Five golden rings\n";
-	string verse4  = "Four calling birds\n";
-	string verse3  = "Three french hens\n";
-	string verse2  = "Two turtle doves, and\n";
-	string verse1  = "A partridge in a pear tree.\n";
-
 	int dayXmas = 1;
 	string dayString = "first";
 
-	if (dayXmas == 1)  { dayString = "first"; }
-	if (dayXmas == 2)  { dayString = "second"; }
-	if (dayXmas == 3)  { dayString = "third"; }
-	if (dayXmas == 4)  { dayString = "fourth"; }
-	if (dayXmas == 5)  { dayString = "fifth"; }
-	if (dayXmas == 6)  { dayString = "sixth"; }
+	if (dayXmas == 1)  { dayString = "first";   }
+	if (dayXmas == 2)  { dayString = "second";  }
+	if (dayXmas == 3)  { dayString = "third";   }
+	if (dayXmas == 4)  { dayString = "fourth";  }
+	if (dayXmas == 5)  { dayString = "fifth";   }
+	if (dayXmas == 6)  { dayString = "sixth";   }
 	if (dayXmas == 7)  { dayString = "seventh"; }
-	if (dayXmas == 8)  { dayString = "eighth"; }
-	if (dayXmas == 9)  { dayString = "ninth"; }
-	if (dayXmas == 10) { dayString = "tenth"; }
-	if (dayXmas == 11) { dayString = "eleventh"; }
+	if (dayXmas == 8)  { dayString = "eighth";  }
+	if (dayXmas == 9)  { dayString = "ninth";   }
+	if (dayXmas == 10) { dayString = "tenth";   }
+	if (dayXmas == 11) { dayString = "eleventh";}
 	if (dayXmas == 12) { dayString = "twelfth"; }
 
 	while (dayXmas != 12)
@@ -237,33 +224,31 @@ int main()
 		switch (dayXmas) 
 		{
 		case 12:
-			cout << verse12;
+			cout << "Twelve drummers drumming\n";
 		case 11:
-			cout << verse11;
+			cout << "Eleven pipers piping\n";
 		case 10:
-			cout << verse10;
+			cout << "Ten lords a-leaping\n";
 		case 9:
-			cout << verse9;
+			cout << "Nine ladies dancing\n";
 		case 8:
-			cout << verse8;
+			cout << "Eight maids a-milking\n";
 		case 7:
-			cout << verse7;
+			cout << "Seven swans a-swimming\n";
 		case 6:
-			cout << verse6;
+			cout << "Six geese a-laying\n";
 		case 5:
-			cout << verse5;
+			cout << "Five golden rings\n";
 		case 4:
-			cout << verse4;
+			cout << "Four calling birds\n";
 		case 3:
-			cout << verse3;
+			cout << "Three french hens\n";
 		case 2:
-			cout << verse2;
+			cout << "Two turtle doves, and\n";
 		case 1:
-			cout << verse1;
+			cout << "A partridge in a pear tree.\n";
 		}
 		dayXmas++;
 	}
-
-	
 
 }
