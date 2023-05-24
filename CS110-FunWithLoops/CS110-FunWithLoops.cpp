@@ -191,4 +191,16 @@ int main()
 
 	cout << endl << "------------------------------" << endl << endl;
 
+	/* 
+		Problem 10: Print the full lyrics of the song "12 Days of Christmas".
+		(Hint: a fall-thru switch)
+
+		In your program, you can only have the words to each verse one time. 
+		No copying and pasting the same verse many times within your program.
+	*/
+
+	cout << "Problem 10: Print the full lyrics of the song '12 Days of Christmas.'\n\n";
+
+
+
 }
