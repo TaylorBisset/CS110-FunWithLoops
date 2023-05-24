@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <cmath>
+#include <iomanip>
 
 using namespace std;
 
@@ -180,5 +181,14 @@ int main()
 
 	cout << "Problem 9: ASCII conversion table for lowercase letters.\n\n";
 
+	int letterInt = 'a';
+	char letterChar = 'a';
+	while (letterInt != 'z')
+	{
+		cout << setw(8) << letterInt << " = " << letterChar << endl;
+		letterInt++;letterChar++;
+	}
+
+	cout << endl << "------------------------------" << endl << endl;
 
 }
