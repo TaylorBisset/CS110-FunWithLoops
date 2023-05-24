@@ -214,4 +214,14 @@ int main()
 	string verse2  = "Two turtle doves, and\n";
 	string verse1  = "A partridge in a pear tree.";
 
+	int dayXmas = 1;
+	string dayString = "first";
+
+	if (dayXmas == 1) { dayString = "first"; }
+
+	switch (dayXmas)
+	{
+
+	}
+
 }
