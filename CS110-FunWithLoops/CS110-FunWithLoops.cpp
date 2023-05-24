@@ -217,6 +217,19 @@ int main()
 	int dayXmas = 1;
 	string dayString = "first";
 
+	if (dayXmas == 1)  { dayString = "first"; }
+	if (dayXmas == 2)  { dayString = "second"; }
+	if (dayXmas == 3)  { dayString = "third"; }
+	if (dayXmas == 4)  { dayString = "fourth"; }
+	if (dayXmas == 5)  { dayString = "fifth"; }
+	if (dayXmas == 6)  { dayString = "sixth"; }
+	if (dayXmas == 7)  { dayString = "seventh"; }
+	if (dayXmas == 8)  { dayString = "eighth"; }
+	if (dayXmas == 9)  { dayString = "ninth"; }
+	if (dayXmas == 10) { dayString = "tenth"; }
+	if (dayXmas == 11) { dayString = "eleventh"; }
+	if (dayXmas == 12) { dayString = "twelfth"; }
+
 	switch (dayXmas)
 	{
 	case 12:
