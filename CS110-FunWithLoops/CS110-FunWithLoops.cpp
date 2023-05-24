@@ -15,7 +15,7 @@ int main()
 		cout << y << " ";
 	}
 
-	cout << endl << "------------------------------" << endl;
+	cout << endl << endl << "------------------------------" << endl << endl;
 
 	// Problem 2: Parrot: Echo the user's input until the user enters nothing. Included <string> for getline().
 
@@ -30,7 +30,7 @@ int main()
 		cout << "Parrot  : " << parrot << endl;
 	}
 	
-	cout << endl << "------------------------------" << endl;
+	cout << endl << "------------------------------" << endl << endl;
 
 	// Problem 3: Print all the words to the song "99 Bottles of Beer".
 
@@ -52,7 +52,7 @@ int main()
 	}
 	cout << "No more bottles of beer on the wall!\n";
 
-	cout << endl << "------------------------------" << endl;
+	cout << endl << "------------------------------" << endl << endl;
 
 	// Problem 4: Print all the powers of 2 that are less than 5000.
 
@@ -66,4 +66,5 @@ int main()
 		numOut = pow(2, numPow++);
 	}
 
+	cout << endl << "------------------------------" << endl << endl;
 }
