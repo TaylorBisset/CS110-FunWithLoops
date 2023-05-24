@@ -217,11 +217,32 @@ int main()
 	int dayXmas = 1;
 	string dayString = "first";
 
-	if (dayXmas == 1) { dayString = "first"; }
-
 	switch (dayXmas)
 	{
-
+	case 12:
+		cout << verse12;
+	case 11:
+		cout << verse11;
+	case 10:
+		cout << verse10;
+	case 9:
+		cout << verse9;
+	case 8:
+		cout << verse8;
+	case 7:
+		cout << verse7;
+	case 6:
+		cout << verse6;
+	case 5:
+		cout << verse5;
+	case 4:
+		cout << verse4;
+	case 3:
+		cout << verse3;
+	case 2:
+		cout << verse2;
+	case 1:
+		cout << verse1;
 	}
 
 }
