@@ -81,4 +81,33 @@ int main()
 	} while (countDownEvens >= 2);
 
 	cout << endl << "------------------------------" << endl << endl;
+
+	/*
+		Problem 6: Print the numbers 1 through 10 on one line, with a comma after
+		each except the last value, which should have a period after it.
+
+		Expected outcome:
+			1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+
+		Use a loop so that you can change a single number in your code
+		to print this same list from 1 to 20 or 1 to 80 instead.
+	*/
+
+	int countUpList = 1;
+	int countUpMax = 10;	// Change this value to increase list.
+
+	cout << "Problem 6: Print the numbers 1 through 10 on one line as a list.\n\n";
+
+	while (countUpList <= countUpMax)
+	{
+		cout << countUpList;
+		if (countUpList < countUpMax)
+		{
+			cout << ", ";
+		}
+		countUpList++;
+	}
+	cout << ".\n";
+
+	cout << endl << "------------------------------" << endl << endl;
 }
