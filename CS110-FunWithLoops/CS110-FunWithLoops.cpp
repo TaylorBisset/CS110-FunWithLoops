@@ -124,9 +124,15 @@ int main()
 
 	cout << "Problem 7: Ask user for integer between 1 and 10, then print it only if input is within range.\n\n";
 
-	int userInputRanged = 1;
+	int userInputRanged = 11;
 
 	cout << "Please enter an integer (a whole number) between 1 and 10: \n";
 
+	while (userInputRanged > 10 || userInputRanged < 1)
+	{
+		cin >> userInputRanged;
+	}
+	cout << userInputRanged << " is within the given range.\n";
 
+	cout << endl << "------------------------------" << endl << endl;
 }
