@@ -264,6 +264,14 @@ int main()
 	cout << "The computer will guess, and you must tell it if its guess is too high or too low.\n";
 	cout << "\nPick your number: ";
 
-	int userNumber = 50;
+	int userNumber = 100;
 	cin >> userNumber;
-}
+	int computerGuess = 50;
+
+	while (computerGuess != userNumber)
+	{
+		int lowLimit = 1;
+		int highLimit = 100;
+	}
+	
+	cout << endl << "------------------------------" << endl << endl;
