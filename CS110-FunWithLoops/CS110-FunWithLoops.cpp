@@ -252,4 +252,18 @@ int main()
 		dayXmas++;
 	}
 
+	cout << endl << "------------------------------" << endl << endl;
+
+	// Problem 11: Reverse Hi-Lo nuymber game. User picks and computer guesses. 
+	// Computer should guess within 7 tries (if the user does not cheat)
+	// Hint: use binary search.
+
+	cout << "Problem 11: Reverse Hi-Lo nuymber game.'\n\n";
+
+	cout << "Pick a whole number between 1 and 100.\n";
+	cout << "The computer will guess, and you must tell it if its guess is too high or too low.\n";
+	cout << "\nPick your number: ";
+
+	int userNumber = 50;
+	cin >> userNumber;
 }
