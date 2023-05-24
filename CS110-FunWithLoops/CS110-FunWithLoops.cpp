@@ -67,4 +67,18 @@ int main()
 	}
 
 	cout << endl << "------------------------------" << endl << endl;
+
+	// Problem 5: Print backwards all the positive even integers starting with 100.
+
+	cout << "Problem 5: Print backwards all the positive even integers starting with 100.\n\n";
+
+	int countDownEvens = 100;
+
+	do
+	{
+		cout << countDownEvens << endl;
+		countDownEvens -= 2;
+	} while (countDownEvens >= 2);
+
+	cout << endl << "------------------------------" << endl << endl;
 }
