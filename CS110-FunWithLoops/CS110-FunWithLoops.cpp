@@ -203,11 +203,11 @@ int main()
 
 	string verse12 = "Twelve drummers drumming\n";
 	string verse11 = "Eleven pipers piping\n";
-	string verse10 = "Ten lords a - leaping\n";
+	string verse10 = "Ten lords a-leaping\n";
 	string verse9  = "Nine ladies dancing\n";
-	string verse8  = "Eight maids a - milking\n";
-	string verse7  = "Seven swans a - swimming\n";
-	string verse6  = "Six geese a - laying\n";
+	string verse8  = "Eight maids a-milking\n";
+	string verse7  = "Seven swans a-swimming\n";
+	string verse6  = "Six geese a-laying\n";
 	string verse5  = "Five golden rings\n";
 	string verse4  = "Four calling birds\n";
 	string verse3  = "Three french hens\n";
