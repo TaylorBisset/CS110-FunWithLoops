@@ -174,4 +174,11 @@ int main()
 	cout << "\nCongratulations! The secret number was " << secretNum << "!\n";
 
 	cout << endl << "------------------------------" << endl << endl;
+
+	// Problem 9: Print ASCII conversion table for lowercase letters.
+	// (Hint: int letter = 'a'; letter++;)
+
+	cout << "Problem 9: ASCII conversion table for lowercase letters.\n\n";
+
+
 }
