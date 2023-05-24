@@ -116,7 +116,17 @@ int main()
 		If the user enters a number out of range, keep asking until the user enters valid input,
 		no matter how many times they get it wrong or what sorts of mistakes they make.
 
-		Then print the entered number. (Challenge: You print the prompt that asks the
+		Then print the entered number. 
+		
+		(Challenge: You print the prompt that asks the
 		user to enter a number in only one place in your code.)
 	*/
+
+	cout << "Problem 7: Ask user for integer between 1 and 10, then print it only if input is within range.\n\n";
+
+	int userInputRanged = 1;
+
+	cout << "Please enter an integer (a whole number) between 1 and 10: \n";
+
+
 }
