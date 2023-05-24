@@ -212,7 +212,7 @@ int main()
 	string verse4  = "Four calling birds\n";
 	string verse3  = "Three french hens\n";
 	string verse2  = "Two turtle doves, and\n";
-	string verse1  = "A partridge in a pear tree.";
+	string verse1  = "A partridge in a pear tree.\n";
 
 	int dayXmas = 1;
 	string dayString = "first";
@@ -230,32 +230,40 @@ int main()
 	if (dayXmas == 11) { dayString = "eleventh"; }
 	if (dayXmas == 12) { dayString = "twelfth"; }
 
-	switch (dayXmas)
+	while (dayXmas != 12)
 	{
-	case 12:
-		cout << verse12;
-	case 11:
-		cout << verse11;
-	case 10:
-		cout << verse10;
-	case 9:
-		cout << verse9;
-	case 8:
-		cout << verse8;
-	case 7:
-		cout << verse7;
-	case 6:
-		cout << verse6;
-	case 5:
-		cout << verse5;
-	case 4:
-		cout << verse4;
-	case 3:
-		cout << verse3;
-	case 2:
-		cout << verse2;
-	case 1:
-		cout << verse1;
+		cout << endl << "On the " << dayString << " day of Christmas my true love sent to me\n";
+
+		switch (dayXmas) 
+		{
+		case 12:
+			cout << verse12;
+		case 11:
+			cout << verse11;
+		case 10:
+			cout << verse10;
+		case 9:
+			cout << verse9;
+		case 8:
+			cout << verse8;
+		case 7:
+			cout << verse7;
+		case 6:
+			cout << verse6;
+		case 5:
+			cout << verse5;
+		case 4:
+			cout << verse4;
+		case 3:
+			cout << verse3;
+		case 2:
+			cout << verse2;
+		case 1:
+			cout << verse1;
+		}
+		dayXmas++;
 	}
+
+	
 
 }
