@@ -203,7 +203,7 @@ int main()
 
 	int dayXmas = 1;
 
-	while (dayXmas != 12)
+	while (dayXmas <= 12)
 	{
 		string dayString = "first";
 
