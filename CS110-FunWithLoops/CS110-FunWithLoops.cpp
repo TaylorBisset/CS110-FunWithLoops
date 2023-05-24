@@ -202,26 +202,27 @@ int main()
 	cout << "Problem 10: Print the full lyrics of the song '12 Days of Christmas.'\n\n";
 
 	int dayXmas = 1;
-	string dayString = "first";
-
-	if (dayXmas == 1)  { dayString = "first";   }
-	if (dayXmas == 2)  { dayString = "second";  }
-	if (dayXmas == 3)  { dayString = "third";   }
-	if (dayXmas == 4)  { dayString = "fourth";  }
-	if (dayXmas == 5)  { dayString = "fifth";   }
-	if (dayXmas == 6)  { dayString = "sixth";   }
-	if (dayXmas == 7)  { dayString = "seventh"; }
-	if (dayXmas == 8)  { dayString = "eighth";  }
-	if (dayXmas == 9)  { dayString = "ninth";   }
-	if (dayXmas == 10) { dayString = "tenth";   }
-	if (dayXmas == 11) { dayString = "eleventh";}
-	if (dayXmas == 12) { dayString = "twelfth"; }
 
 	while (dayXmas != 12)
 	{
+		string dayString = "first";
+
+		if (dayXmas == 1)  { dayString = "first";   }
+		if (dayXmas == 2)  { dayString = "second";  }
+		if (dayXmas == 3)  { dayString = "third";   }
+		if (dayXmas == 4)  { dayString = "fourth";  }
+		if (dayXmas == 5)  { dayString = "fifth";   }
+		if (dayXmas == 6)  { dayString = "sixth";   }
+		if (dayXmas == 7)  { dayString = "seventh"; }
+		if (dayXmas == 8)  { dayString = "eighth";  }
+		if (dayXmas == 9)  { dayString = "ninth";   }
+		if (dayXmas == 10) { dayString = "tenth";   }
+		if (dayXmas == 11) { dayString = "eleventh";}
+		if (dayXmas == 12) { dayString = "twelfth"; }
+	
 		cout << endl << "On the " << dayString << " day of Christmas my true love sent to me\n";
 
-		switch (dayXmas) 
+		switch (dayXmas) // Each case will cascade from last to first, while the lyrics increase from first to last.
 		{
 		case 12:
 			cout << "Twelve drummers drumming\n";
