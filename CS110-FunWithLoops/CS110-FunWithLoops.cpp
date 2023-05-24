@@ -140,5 +140,19 @@ int main()
 		I need to figure out how to check if the user input is an ineger and not a float.
 	*/
 
+	// Problem 8: Hi-Lo number game. 
+	/*
+		The computer randomly picks an int between 1 and 100 
+		and then tells the user whether each guess is too high or low 
+		until the user guesses the number correctly
+	*/
+
+	cout << "Problem 8: Hi-Lo number game.\n\n";
+
+	int userGuess = 101;
+	int secretNum = 50;
+
+	srand(time(NULL));	// initialize ramdom seed
+	secretNum = rand() % 100 + 1;	// generate secret number between 1 and 100
 
 }
