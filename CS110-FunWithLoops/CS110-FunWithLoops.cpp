@@ -135,4 +135,10 @@ int main()
 	cout << userInputRanged << " is within the given range.\n";
 
 	cout << endl << "------------------------------" << endl << endl;
+
+	/*
+		I need to figure out how to check if the user input is an ineger and not a float.
+	*/
+
+
 }
