@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
 	// Problem 1: Print the numbers 10 to 1 with a space between each number.
-	
+
 	cout << "Problem 1: Print the numbers 10 to 1 with a space between each number.\n\n";
 
 	for (int y = 10; y >= 1; y--)
@@ -30,7 +30,7 @@ int main()
 		getline(cin, parrot);
 		cout << "Parrot  : " << parrot << endl;
 	}
-	
+
 	cout << endl << "------------------------------" << endl << endl;
 
 	// Problem 3: Print all the words to the song "99 Bottles of Beer".
@@ -117,8 +117,8 @@ int main()
 		If the user enters a number out of range, keep asking until the user enters valid input,
 		no matter how many times they get it wrong or what sorts of mistakes they make.
 
-		Then print the entered number. 
-		
+		Then print the entered number.
+
 		(Challenge: You print the prompt that asks the
 		user to enter a number in only one place in your code.)
 	*/
@@ -145,8 +145,8 @@ int main()
 
 	// Problem 8: Hi-Lo number game. 
 	/*
-		The computer randomly picks an int between 1 and 100 
-		and then tells the user whether each guess is too high or low 
+		The computer randomly picks an int between 1 and 100
+		and then tells the user whether each guess is too high or low
 		until the user guesses the number correctly
 	*/
 
@@ -191,11 +191,11 @@ int main()
 
 	cout << endl << "------------------------------" << endl << endl;
 
-	/* 
+	/*
 		Problem 10: Print the full lyrics of the song "12 Days of Christmas".
 		(Hint: a fall-thru switch)
 
-		In your program, you can only have the words to each verse one time. 
+		In your program, you can only have the words to each verse one time.
 		No copying and pasting the same verse many times within your program.
 	*/
 
@@ -207,19 +207,19 @@ int main()
 	{
 		string dayString = "first";
 
-		if (dayXmas == 1)  { dayString = "first";   }
-		if (dayXmas == 2)  { dayString = "second";  }
-		if (dayXmas == 3)  { dayString = "third";   }
-		if (dayXmas == 4)  { dayString = "fourth";  }
-		if (dayXmas == 5)  { dayString = "fifth";   }
-		if (dayXmas == 6)  { dayString = "sixth";   }
-		if (dayXmas == 7)  { dayString = "seventh"; }
-		if (dayXmas == 8)  { dayString = "eighth";  }
-		if (dayXmas == 9)  { dayString = "ninth";   }
-		if (dayXmas == 10) { dayString = "tenth";   }
-		if (dayXmas == 11) { dayString = "eleventh";}
+		if (dayXmas == 1) { dayString = "first"; }
+		if (dayXmas == 2) { dayString = "second"; }
+		if (dayXmas == 3) { dayString = "third"; }
+		if (dayXmas == 4) { dayString = "fourth"; }
+		if (dayXmas == 5) { dayString = "fifth"; }
+		if (dayXmas == 6) { dayString = "sixth"; }
+		if (dayXmas == 7) { dayString = "seventh"; }
+		if (dayXmas == 8) { dayString = "eighth"; }
+		if (dayXmas == 9) { dayString = "ninth"; }
+		if (dayXmas == 10) { dayString = "tenth"; }
+		if (dayXmas == 11) { dayString = "eleventh"; }
 		if (dayXmas == 12) { dayString = "twelfth"; }
-	
+
 		cout << endl << "On the " << dayString << " day of Christmas my true love sent to me\n";
 
 		switch (dayXmas) // Each case will cascade from last to first, while the lyrics increase from first to last.
@@ -273,5 +273,7 @@ int main()
 		int lowLimit = 1;
 		int highLimit = 100;
 	}
-	
+
 	cout << endl << "------------------------------" << endl << endl;
+
+}
