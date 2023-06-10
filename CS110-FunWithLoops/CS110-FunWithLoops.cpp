@@ -277,9 +277,26 @@ int main()
 
 	while (computerGuess != userNumber)
 	{
-		
+		cout << "Is your number " << computerGuess << "?\ny / h / l: ";
+		cin >> userGuessInput;
+		cout << endl << endl;
+
+		if (userGuessInput == 'h')
+		{
+			highLimit = computerGuess;
+			computerGuess = (lowLimit + highLimit) / 2;
+		}
+		else if (userGuessInput == 'l')
+		{
+			lowLimit = computerGuess;
+			computerGuess = (lowLimit + highLimit) / 2;
+		}
+		else
+		{
+			return 0;
+		}
 	}
+	cout << "Your number is " << computerGuess << endl;
 
 	cout << endl << "------------------------------" << endl << endl;
-
 }
