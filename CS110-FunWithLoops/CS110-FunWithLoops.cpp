@@ -259,18 +259,17 @@ int main()
 
 	cout << "Problem 11: Reverse Hi-Lo nuymber game.'\n\n";
 
-	cout << "Pick a whole number between 1 and 100.\n";
-	cout << "The computer will guess, and you must tell it if its guess is too high or too low.\n";
-	cout << "\nPick your number: ";
-
+	int lowLimit = 1;
+	int highLimit = 1000;
+	
+	cout << "Pick a whole number between " << lowLimit << " and \n" << highLimit;
+	cout << "The computer will guess, and you must tell it if its guess is too high or too low.\n\nPick your number: ";
 	int userNumber = 100;
 	cin >> userNumber;
 
 	cout << endl << "**\nUse the following keys to help the computer find the right number:\n";
 	cout << "Yes(y), Too High(h) Too Low(l)\n**\n\n*BE HONEST!*\n\n";
 
-	int lowLimit = 1;
-	int highLimit = 1000;
 	int computerGuess = (highLimit / 2);
 	char userGuessInput = 'h';
 
