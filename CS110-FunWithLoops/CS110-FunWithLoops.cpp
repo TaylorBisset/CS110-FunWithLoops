@@ -268,14 +268,15 @@ int main()
 	cin >> userNumber;
 	int computerGuess = 50;
 
-	cout << endl << endl << "Use the following key to prompt the computer to the right number:\nYes (y), Too High (h) Too Low (l)";
+	cout << endl << endl << "Use the following key to prompt the computer to the right number:\n";
+	cout << "Yes(y), Too High(h) Too Low(l)\n\nBE HONEST!\n\n";
 
 	int lowLimit = 1;
 	int highLimit = 100;
 
 	char userGuessInput = 'h';
 
-	while (computerGuess != userNumber)
+	while (userGuessInput != 'y')
 	{
 		cout << "Is your number " << computerGuess << "?\ny / h / l: ";
 		cin >> userGuessInput;
@@ -291,12 +292,11 @@ int main()
 			lowLimit = computerGuess;
 			computerGuess = (lowLimit + highLimit) / 2;
 		}
-		else
+		else if (userGuessInput == 'y')
 		{
-			return 0;
+			cout << "Your number is " << computerGuess << endl;
 		}
 	}
-	cout << "Your number is " << computerGuess << endl;
 
 	cout << endl << "------------------------------" << endl << endl;
 }
