@@ -16,7 +16,7 @@ int main()
 		cout << y << " ";
 	}
 
-	cout << endl << endl << "------------------------------" << endl << endl;
+	cout << endl << endl << "- - - - - - - - - - - - - - - - - - - -" << endl << endl;
 
 	// Problem 2: Parrot: Echo the user's input until the user enters nothing. Included <string> for getline().
 
@@ -31,7 +31,7 @@ int main()
 		cout << "Parrot  : " << parrot << endl;
 	}
 
-	cout << endl << "------------------------------" << endl << endl;
+	cout << endl << "- - - - - - - - - - - - - - - - - - - -" << endl << endl;
 
 	// Problem 3: Print all the words to the song "99 Bottles of Beer".
 
@@ -53,7 +53,7 @@ int main()
 	}
 	cout << "No more bottles of beer on the wall!\n";
 
-	cout << endl << "------------------------------" << endl << endl;
+	cout << endl << "- - - - - - - - - - - - - - - - - - - -" << endl << endl;
 
 	// Problem 4: Print all the powers of 2 that are less than 5000.
 
@@ -67,7 +67,7 @@ int main()
 		numOut = pow(2, numPow++);
 	}
 
-	cout << endl << "------------------------------" << endl << endl;
+	cout << endl << "- - - - - - - - - - - - - - - - - - - -" << endl << endl;
 
 	// Problem 5: Print backwards all the positive even integers starting with 100.
 
@@ -81,14 +81,14 @@ int main()
 		countDownEvens -= 2;
 	} while (countDownEvens >= 2);
 
-	cout << endl << "------------------------------" << endl << endl;
+	cout << endl << "- - - - - - - - - - - - - - - - - - - -" << endl << endl;
 
 	/*
 		Problem 6: Print the numbers 1 through 10 on one line, with a comma after
 		each except the last value, which should have a period after it.
 
 		Expected outcome:
-			1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+		1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
 
 		Use a loop so that you can change a single number in your code
 		to print this same list from 1 to 20 or 1 to 80 instead.
@@ -110,7 +110,7 @@ int main()
 	}
 	cout << ".\n";
 
-	cout << endl << "------------------------------" << endl << endl;
+	cout << endl << "- - - - - - - - - - - - - - - - - - - -" << endl << endl;
 
 	/*	Problem 7: Ask the user to enter an integer between 1 and 10.
 
@@ -133,9 +133,9 @@ int main()
 	{
 		cin >> userInputRanged;
 	}
-	cout << userInputRanged << " is within the given range.\n";
+	cout << endl << userInputRanged << " is within the given range.\n";
 
-	cout << endl << "------------------------------" << endl << endl;
+	cout << endl << "- - - - - - - - - - - - - - - - - - - -" << endl << endl;
 
 
 	/*
@@ -174,7 +174,7 @@ int main()
 	}
 	cout << "\nCongratulations! The secret number was " << secretNum << "!\n";
 
-	cout << endl << "------------------------------" << endl << endl;
+	cout << endl << "- - - - - - - - - - - - - - - - - - - -" << endl << endl;
 
 	// Problem 9: Print ASCII conversion table for lowercase letters.
 	// (Hint: int letter = 'a'; letter++;)
@@ -185,11 +185,11 @@ int main()
 	char letterChar = 'a';
 	while (letterInt != 'z')
 	{
-		cout << setw(8) << letterInt << " = " << letterChar << endl;
+		cout << setw(4) << letterInt << " = " << letterChar << endl;
 		letterInt++;letterChar++;
 	}
 
-	cout << endl << "------------------------------" << endl << endl;
+	cout << endl << "- - - - - - - - - - - - - - - - - - - -" << endl << endl;
 
 	/*
 		Problem 10: Print the full lyrics of the song "12 Days of Christmas".
@@ -199,7 +199,7 @@ int main()
 		No copying and pasting the same verse many times within your program.
 	*/
 
-	cout << "Problem 10: Print the full lyrics of the song '12 Days of Christmas.'\n\n";
+	cout << "Problem 10: Print the full lyrics of the song '12 Days of Christmas.'\n";
 
 	int dayXmas = 1;
 
@@ -252,11 +252,10 @@ int main()
 		dayXmas++;
 	}
 
-	cout << endl << "------------------------------" << endl << endl;
+	cout << endl << "- - - - - - - - - - - - - - - - - - - -" << endl << endl;
 
 	// Problem 11: Reverse Hi-Lo nuymber game. User picks and computer guesses. 
-	// Computer should guess within 7 tries (if the user does not cheat)
-	// Hint: use binary search.
+	// Computer should guess within 7 tries (if the user does not cheat)	 Hint: use binary search.
 
 	cout << "Problem 11: Reverse Hi-Lo nuymber game.'\n\n";
 
@@ -268,12 +267,11 @@ int main()
 	cin >> userNumber;
 	int computerGuess = 50;
 
-	cout << endl << endl << "Use the following key to prompt the computer to the right number:\n";
-	cout << "Yes(y), Too High(h) Too Low(l)\n\nBE HONEST!\n\n";
+	cout << endl << "**\nUse the following keys to help the computer find the right number:\n";
+	cout << "Yes(y), Too High(h) Too Low(l)\n**\n\n*BE HONEST!*\n\n";
 
 	int lowLimit = 1;
 	int highLimit = 100;
-
 	char userGuessInput = 'h';
 
 	while (userGuessInput != 'y')
@@ -298,5 +296,5 @@ int main()
 		}
 	}
 
-	cout << endl << "------------------------------" << endl << endl;
+	cout << endl << "- - - - - - - - - - - - - - - - - - - -" << endl << endl;
 }
