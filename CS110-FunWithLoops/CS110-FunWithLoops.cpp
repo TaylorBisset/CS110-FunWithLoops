@@ -265,13 +265,13 @@ int main()
 
 	int userNumber = 100;
 	cin >> userNumber;
-	int computerGuess = 50;
 
 	cout << endl << "**\nUse the following keys to help the computer find the right number:\n";
 	cout << "Yes(y), Too High(h) Too Low(l)\n**\n\n*BE HONEST!*\n\n";
 
 	int lowLimit = 1;
-	int highLimit = 100;
+	int highLimit = 1000;
+	int computerGuess = (highLimit / 2);
 	char userGuessInput = 'h';
 
 	while (userGuessInput != 'y')
